@@ -3,3 +3,5 @@ YouDieIfYouDontRead
 Read this Kristján
 
 I think that we should make a little bit of planing how we are going to implement this before we start. Im just talking about small discussion between us all and decide on programming rules. The structure of the HTML pages and so fourth.
+
+Kristján Patrekur: I agree.
