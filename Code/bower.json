@@ -1,0 +1,21 @@
+{
+  "name": "CaseStudy",
+  "homepage": "https://github.com/hilmarragnars/UserInterface_CaseStudy",
+  "authors": [
+    "Kristján Patrekur <krillinn@gmail.com>"
+  ],
+  "description": "For School",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "Batman"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
