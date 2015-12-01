@@ -1,3 +1,6 @@
-console.log("hello world");
 
-$('#demo').flagStrap();
+
+/*This is the calendar on the side bar*/
+$(function() {
+    $( "#datepicker" ).datepicker();
+});
