@@ -6,25 +6,28 @@
 
 		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/Bootstrap-select/dist/css/bootstrap-select.min.css">
+		<link rel="stylesheet" type="text/css" href="bower_components/Country-Selecter/dist/css/flags.css">
 		<link rel="stylesheet" type="text/css" href="./style/Ad.css">
 
 		<script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="bower_components/Bootstrap-select/dist/js/bootstrap-select.min.js" type="text/javascript"></script>
+		<script src="bower_components/Country-Selecter/dist/js/jquery.flagstrap.min.js" type="text/javascript"></script>
+		<script src="java/main.js" type="text/javascript"></script>
 
 		<meta charset="UTF-8">
 	</head>
 
 	<body>
 
-		<nav id="navbar" class="navbar navbar-default navbar-static-bottom">
+		<nav id="navbar" class="col-md-12">
 			<div id="header" class="container">
 				<div id="icon" class="col-md-3">
 					<h1>Craiglist</h1>
 				</div>
 				<div class="col-md-6">
 					<div class="row">
-						<div class="input-group-btn">
+						<div class="">
 							<button type="button" class="btn btn-success">Change</button>
 							<select class="selectpicker" data-style="btn-primary">
 								<option>Madrid</option>
@@ -37,9 +40,26 @@
 								<option>Latin</option>
 							</select>
 						</div>
+						<div id="demo"
+     data-input-name="country"
+     data-selected-country="US"
+     data-button-size="btn-lg"
+     data-button-type="btn-warning"
+     data-scrollable="true"
+     data-scrollable-height="250px">
+</div>
 					</div>
 					<div class="row">
-						<stong>Madrid</stong>
+						<stong>I feel there is a better or at least cooler way to do this ! Might be a strong move to to have the appropriate pictures in front of the boxes so people know what to do.  The change button is irrelevant ? </stong>
+					</div>
+				</div>
+
+				<div id="logInPost" class="col-md-3">
+					<div class="col-md-12">
+						<button type="button" class="btn btn-success">Log in</button>
+					</div>
+					<div class="col-md-12">
+						<button type="button" class="btn btn-success">Post here</button>
 					</div>
 				</div>
  			</div>
