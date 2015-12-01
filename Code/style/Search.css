@@ -27,7 +27,7 @@ body {
 	}
 /************************************************************************/
 
-/*** Navigation bar *****************************************************/
+/*** Navigation bar on the side bar *************************************/
 #navigation {
 	float:left;
 	width:20%;
@@ -37,51 +37,9 @@ body {
 }
 	
 	/* Calendar */
-	table {
-		width:95%;
-		margin-right:2%;
-		margin-left:2%;
-		margin-top:15%;
-		margin-bottom:15%;
-	}
-
-	table, th, td {
-    	border:1px solid black;
-    	border-collapse:collapse;
-   		background-color:white;
-   		padding:3px;
-	}
-
-	th#month {    
-    	background-color:blue;
-	}
-
-	th.days {    
-    	background-color:yellow;
-	}
-
+	
 	/* Sections */
-	#navigation ul {
-		list-style-type:none;
-		background-color:gray;
-		text-align:left;
-	}
-
-	#navigation p {
-		font-size:22px;
-		font-weight:bold;
-		color:black;
-		line-height:50px;
-		background-color:hotpink;
-		margin:0;
-		position:relative;
-		left:-9%;
-	}
-
-	/* Shadow */
-	p#shadow { 
-		background-color:white;
-	}
+	
 /************************************************************************/
 
 /*** Main section with the content **************************************/
