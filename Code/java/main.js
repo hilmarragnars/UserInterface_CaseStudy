@@ -1,5 +1,9 @@
 
 $(document).ready(function() {
-	console.log("hello world");
-	 $( "#datepicker" ).datepicker();
+	$('#datepicker').datepicker();
+	$('#datepicker').on("changeDate", function() {
+    $('#my_hidden_input').val(
+        $('#datepicker').datepicker('getFormattedDate')
+    );
+});
 });
