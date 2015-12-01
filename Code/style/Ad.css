@@ -17,6 +17,14 @@ body {
     /*text-align:left;*/
 }
 
+.blue {
+	background-color: blue;
+}
+
+.orange {
+	background-color: orange;
+}
+
 .container {
 	padding: 0;
 	width: 97%;
