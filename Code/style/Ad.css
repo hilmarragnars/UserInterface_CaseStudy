@@ -6,28 +6,45 @@ body {
     border:0;
     font-size: 10px;
 }
+
+* {
+	box-sizing: border-box;
+}
+
+.zeroPadding {
+	padding: 0em;
+}
+
 /************************************************************************/
 
 /*** Navbar *************************************************************/
 
 #navbar {
-	height:10.5em;
+	height:12em;
     background-color: rgb(238, 238, 238);
 }
 
-.container {
-	padding: 0;
-	width: 97%;
-}
-
-#header {
-	height: 10.5em;
-}
-
-#icon {
-
+#logo {
 	padding: 2.2em 0;
-	height: 10.5em;
+	height: 12em;
+}
+
+#location {
+	height: 6em;
+	border-style: none none solid none;
+}
+
+#location span {
+	margin-right: 1em;
+}
+
+#location strong {
+	height: 6em;
+	font-size: 3.5em;
+}
+
+#selectLocation {
+	padding-left: 2.6em; 
 }
 
 /*#header {
@@ -42,8 +59,22 @@ body {
 	margin:0;
 		font-size:4.5em;
 		font-family:cursive;
+/* 		color:black;
+		position:relative;
+		top:20px;
+		left:8%;*/
 }
 
+#navButtons button {
+	float: right;
+	width: 50%;
+	margin: 0.2em;
+}
+
+
+#searchBar {
+	margin-top: 1.5em;
+}
 /************************************************************************/
 
 /*** Navigation bar *****************************************************/
