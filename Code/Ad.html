@@ -5,18 +5,24 @@
 		<title>Ad</title>
 		<link rel="shortcut icon" href="images/craigslist.ico">
 
+		<!--I put this on the top so the library will be read after KRISTJAN???-->
+		<link rel="stylesheet" type="text/css" href="./style/Ad.css">
+
 		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/Bootstrap-select/dist/css/bootstrap-select.min.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/Country-Selecter/dist/css/flags.css">
-		<link rel="stylesheet" type="text/css" href="./style/Ad.css">
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+		
 
 		<script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="bower_components/Bootstrap-select/dist/js/bootstrap-select.min.js" type="text/javascript"></script>
 		<script src="bower_components/Country-Selecter/dist/js/jquery.flagstrap.min.js" type="text/javascript"></script>
+		<script src="bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
 		<script src="java/main.js" type="text/javascript"></script>
 
 		<meta charset="UTF-8">
+
 	</head>
 
 	<body>
@@ -62,29 +68,21 @@
 
 		<div id="navigation">
 			<!-- Calendar-->
-			<table>
-				<tr><th colspan="7" id="month">&#9668 DECEMBER 2015 &#9658</th></tr>
-				<tr><th class="days">Mon</th><th class="days">Tue</th><th class="days">Wed</th>
-				<th class="days">Thu</th><th class="days">Fri</th><th class="days">Sat</th>
-				<th class="days">Sun</th></tr>
-				<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
-				<tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
-				<tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
-				<tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
-				<tr><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td><td></td></tr>
-			</table>
-			<!-- Sections -->
-			<ul>
-				<li><p>Community</p></li>
-				<li><p>Housing</p></li>
-				<li><p>Jobs</p></li>
-				<li><p>Personals</p></li>
-				<li><p>For Sale</p></li>
-				<li><p id="shadow">Services</p></li>
-				<li><p>Forums</p></li>
-				<li><p>CVs</p></li>
-				<li><p>Temporal Jobs</p></li>
-			</ul>
+			Event calendar
+		  	<div id="datepicker" data-date="12/03/2012"></div>
+		  	<!-- Sections -->
+		  	<nav class="col-2 col-m-12" id="navBar">
+		    	<ul class="nav nav-pills nav-stacked menuBar col-12 col-m-12">
+			      <li class="vertical "><a class="col-12 col-m-3" href="#">Community</a></li>
+			      <li class="vertical "><a class="col-12 col-m-3" href="#">Housing</a></li>
+			      <li class="vertical "><a class="col-12 col-m-3" href="#">Personals</a></li>
+			      <li class="vertical "><a class="col-12 col-m-3" href="#">For Sale</a></li>
+			      <li class="vertical "><a class="col-12 col-m-3" href="#">Services</a></li>
+			      <li class="vertical "><a class="col-12 col-m-3" href="#">Forums</a></li>
+			      <li class="vertical "><a class="col-12 col-m-3" href="#">CVs</a></li>
+			      <li class="vertical "><a class="col-12 col-m-3" href="#">Temporal Jobs</a></li>
+		    	</ul>
+		  	</nav>
 		</div>
 		<div id="main">
 		</div>
