@@ -1,6 +1,5 @@
 
-
-/*This is the calendar on the side bar*/
-$(function() {
-    $( "#datepicker" ).datepicker();
+$(document).ready(function() {
+	console.log("hello world");
+	 $( "#datepicker" ).datepicker();
 });
