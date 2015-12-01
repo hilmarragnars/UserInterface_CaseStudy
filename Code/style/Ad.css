@@ -13,16 +13,7 @@ body {
 
 #navbar {
 	height:10.5em;
-    background-color:hotpink;
-    /*text-align:left;*/
-}
-
-.blue {
-	background-color: blue;
-}
-
-.orange {
-	background-color: orange;
+    background-color: rgb(238, 238, 238);
 }
 
 .container {
