@@ -14,11 +14,9 @@ body {
 .zeroPadding {
 	padding: 0em;
 }
-
 /************************************************************************/
 
 /*** Navbar *************************************************************/
-
 #navbar {
 	height:12em;
     background-color: rgb(238, 238, 238);
@@ -118,6 +116,8 @@ body {
 		font-size:20px;
 		font-weight:bold;
 		font-family:cursive;
+		margin-top:20px;
+		color:black;
 	}
 	
 	/* Bar with privacy and policy options */
