@@ -47,8 +47,9 @@ body {
 	}
 
 	/* Calendar */
-	#datepicker {
-		margin-left: 10%;
+	.datepicker-here {
+		margin-left: 5%;
+		margin-bottom: 2em;
 	}
 
 	/* Navigation bar */
@@ -132,7 +133,7 @@ body {
 
 	/* Mouse over link */
 	a:hover {
-    	color: #0066ff;
+    	color: rgb(35,82,124);
 	}
 	
 /************************************************************************/

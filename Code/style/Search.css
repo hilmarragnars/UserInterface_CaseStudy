@@ -37,12 +37,23 @@ body {
 	height: 750px;
 	background-color: gray;
 }
+	
 	/* This is the text above the calendar*/
 	#datetext{
 		margin-top: 1em;
 		text-align: center;
 	}
-		
+
+	/* Calendar */
+	.datepicker-here {
+		margin-left: 5%;
+		margin-bottom: 2em;
+	}
+
+	/* Navigation bar */
+	#navBar {
+		margin-left: 5%;
+	}		
 /************************************************************************/
 
 /*** Main section with the content **************************************/
@@ -115,7 +126,7 @@ body {
 
 	/* Mouse over link */
 	a:hover {
-    	color: #0066ff;
+    	color: rgb(35,82,124);
 	}
 
 /************************************************************************/
