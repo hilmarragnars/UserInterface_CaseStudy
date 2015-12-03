@@ -27,7 +27,7 @@ body {
 	}
 /************************************************************************/
 
-/*** Navigation bar *****************************************************/
+/*** Side Bar *****************************************************/
 #navigation {
 	float:left;
 	width:20%;
@@ -35,13 +35,17 @@ body {
 	background-color:gray;
 }
 	
-	/* Calendar */
+
+	/* This is the text above the calendar*/
 	#datetext{
 		margin-top: 1em;
 		text-align: center;
 	}
 
+	/* Calendar */
+
 	#datepicker {
+		margin-left: 10%;
 		/*width: 212px;
 		height: 250px;
 		margin-left: 10%;
@@ -50,7 +54,12 @@ body {
 	}
 
 
-	/* Sections */
+	/* Navigation bar */
+	#navBar {
+		margin-left: 5%;
+	}
+
+
 	
 /************************************************************************/
 
