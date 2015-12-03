@@ -36,6 +36,19 @@ body {
 }
 	
 	/* Calendar */
+	#datetext{
+		margin-top: 1em;
+		text-align: center;
+	}
+
+	#datepicker {
+		/*width: 212px;
+		height: 250px;
+		margin-left: 10%;
+		border-style: solid;
+		background-color: green;*/ 
+	}
+
 
 	/* Sections */
 	

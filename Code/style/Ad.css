@@ -82,7 +82,10 @@ body {
 	height:750px;
 	background-color:gray;
 }
-	
+	#datetext{
+		margin-top: 1em;
+		text-align: center;
+	}
 	/* Calendar */
 
 	/* Sections */
