@@ -1,84 +1,78 @@
 
 /*** Body ***************************************************************/
+
 body {
-    margin:0;
-    padding:0;
-    border:0;
+    margin: 0;
+    padding: 0;
+    border: 0;
     font-size: 10px;
 }
 
-* {
-	box-sizing: border-box;
-}
+	* {
+		box-sizing: border-box;
+	}
 
-.zeroPadding {
-	padding: 0em;
-}
+	.zeroPadding {
+		padding: 0em;
+	}
+
 /************************************************************************/
 
 /*** Navbar *************************************************************/
+
 #navbar {
 	height:12em;
     background-color: rgb(238, 238, 238);
 }
 
-#logo {
-	padding: 2.2em 0;
-	height: 12em;
-}
+	#logo {
+		padding: 2.2em 0;
+		height: 12em;
+	}
 
-#location {
-	height: 6em;
-	border-style: none none solid none;
-}
+	#location {
+		height: 6em;
+		border-style: none none solid none;
+	}
 
-#location span {
-	margin-right: 1em;
-}
+	#location span {
+		margin-right: 1em;
+	}
 
-#location strong {
-	height: 6em;
-	font-size: 3.5em;
-}
+	#location strong {
+		height: 6em;
+		font-size: 3.5em;
+	}
 
-#selectLocation {
-	padding-left: 2.6em; 
-}
+	#selectLocation {
+		padding-left: 2.6em; 
+	}
 
-/*#header {
-	width:100%;
-	height:105px;
-    background-color:hotpink;
-    text-align:left;    
-}*/
+	/* Header's tittle */
+	#navbar h1 {
+		margin: 0;
+		font-size: 4.5em;
+		font-family: cursive;
+	}
 
-/* Header's tittle */
-#navbar h1 {
-	margin:0;
-		font-size:4.5em;
-		font-family:cursive;
-/* 		color:black;
-		position:relative;
-		top:20px;
-		left:8%;*/
-}
+	#navButtons button {
+		float: right;
+		width: 50%;
+		margin: 0.2em;
+	}
 
-#navButtons button {
-	float: right;
-	width: 50%;
-	margin: 0.2em;
-}
+	#searchBar {
+		margin-top: 1.5em;
+	}
 
-#searchBar {
-	margin-top: 1.5em;
-}
 /************************************************************************/
 
 /*** Navigation bar in side bar *****************************************/
+
 #navigation {
-	float:left;
-	width:20%;
-	height:750px;
+	float: left;
+	width: 20%;
+	height: 750px;
 	background-color: rgb(238, 238, 238);
 }
 	/* This is the text above the calendar*/
@@ -87,125 +81,124 @@ body {
 		text-align: center;
 	}
 	
-	/* Calendar */
-
-	/* Sections */
-
 /************************************************************************/
 
 /*** Main section with the content **************************************/
+
 #main {
-	float:left;
-	width:80%;
-	height:750px;
-	background-color:green;
+	float: left;
+	width: 80%;
+	height: 750px;
+	background-color: green;
 }
 
-#ad {
-	width:90%;
-	margin-left:5%;
-	margin-right:5%;
-	margin-top: 10%;
-	height:350px;
-	background-color:gray;
-}
+	#ad {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 10%;
+		height: 350px;
+		background-color: gray;
+	}
 
-#main h1 {
-	text-align:center;
-}
+	#main h1 {
+		text-align: center;
+	}
 
-#description {
-	float:left;
-	width:60%;
-	height:250px;
-	background-color:white;
-	margin-top:20px;
-}
+	#description {
+		float: left;
+		width: 60%;
+		height: 250px;
+		background-color: white;
+		margin-top: 20px;
+	}
 
-#description p {
-	font-size:14px;
-} 
+	#description p {
+		font-size: 14px;
+	} 
 
-#photo {
-	float:left;
-	width:37%;
-	height:40%;
-	margin-left:3%;
-	background-color:orange;
-	margin-top:20px;
-	margin-bottom:20px;
-}
+	#photo {
+		float: left;
+		width: 37%;
+		height: 40%;
+		margin-left: 3%;
+		background-color: orange;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 
-#photo img {
-	width:100%;
-	height:100%;
-}
+	#photo img {
+		width: 100%;
+		height: 100%;
+	}
 
-#button1 {
-	margin-left:140px;
-	margin-bottom:10px;
-}
+	#button1 {
+		margin-left: 140px;
+		margin-bottom: 10px;
+	}
 
-#button2 {
-	margin-left:136px;
-}
+	#button2 {
+		margin-left: 136px;
+	}
 
 /************************************************************************/
 
 /*** Footer *************************************************************/
+
 #footer {
-	float:left;
-	width:100%;
-	height:65px;
-	background-color:yellow;
+	float: left;
+	width: 100%;
+	height: 65px;
+	background-color: yellow;
 }
 	
 	/* Policy text */
 	#footer p {
-		float:left;
-		margin-left:5%;
-		margin-right:8%;
-		font-size:20px;
-		font-weight:bold;
-		font-family:cursive;
-		margin-top:20px;
-		color:black;
+		float: left;
+		margin-left: 5%;
+		margin-right: 8%;
+		font-size: 20px;
+		font-weight: bold;
+		font-family: cursive;
+		margin-top: 20px;
+		color: black;
 	}
 	
 	/* Bar with privacy and policy options */
 	#footer ul {
-		list-style-type:none;
-		margin:0;
-		position:relative;
-		top:22px;
+		list-style-type: none;
+		margin: 0;
+		position: relative;
+		top: 22px;
 	}
 	
 	#footer li {
-		float:left;
-		display:inline;
-		padding:0;
-		margin-left:25px;
-		margin-right:25px;
-		text-align:center;
+		float: left;
+		display: inline;
+		padding: 0;
+		margin-left: 25px;
+		margin-right: 25px;
+		text-align: center;
 	}
 	
 	/* Unvisited link */
 	a:link {
-    	color:black;
-    	font-size:18px;
-		font-weight:bold;
-		text-decoration:none;
-		letter-spacing:1px;
-		color:black;
+    	color: black;
+    	font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+		letter-spacing: 1px;
+		color: black;
 	}
 
 	/* Visited link */
 	a:visited {
-    	color:black;
+    	color: black;
 	}
 
 	/* Mouse over link */
 	a:hover {
     	color: #0066ff;
 	}
+
 /************************************************************************/
