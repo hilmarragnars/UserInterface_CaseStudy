@@ -52,6 +52,12 @@ body {
 	height:750px;
 	background-color:green;
 }
+
+.breadcrumb > li + li:before {
+   color: #CCCCCC;
+   content: "/ ";
+   padding: 0 5px;
+}
 /************************************************************************/
 
 /*** Footer *************************************************************/
