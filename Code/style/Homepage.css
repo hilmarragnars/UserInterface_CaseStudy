@@ -72,7 +72,7 @@ body {
 #navigation {
 	float: left;
 	width: 20%;
-	height: 750px;
+	height: 807px;
 	background-color: gray;
 }
 	
@@ -100,7 +100,7 @@ body {
 #main {
 	float: left;
 	width: 80%;
-	height: 750px;
+	height: auto;
 	background-color: green;
 }
 
@@ -112,15 +112,95 @@ body {
 
 	.breadcrumb {
 		margin-top: 30px;
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 	}
 
 	#main h1 {
-		color: red;
+		color: black;
 		font-weight: bold;
-		font-size: 20px;
+		font-size: 30px;
 		margin-left: 5%;
 	}
+
+	#searched {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		height: 250px;
+		background-color: white;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+		.search { 
+			float: left;
+			background-color: #FFEFD5;
+    		width: 30%;
+			height: 80%;
+			margin-right: 30px;
+		}
+
+		.search img {
+			width: 100%;
+    		height: 100%;
+		}
+
+		.search p {
+    		float: left;
+    		font-weight: bold;
+    		color: black;
+    		font-size: 18px;
+    		margin-top: 15px;
+		}
+
+		.search a {
+    		float: left;
+    		font-weight: bold;
+    		color: black;
+    		font-size: 18px;
+    		margin-top: 15px;
+    		margin-left: 140px;
+		}
+
+	#popular {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		height: 250px;
+		background-color: white;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+		.pop { 
+			float: left;
+			background-color: #FFEFD5;
+    		width: 30%;
+			height: 80%;
+			margin-right: 30px;
+		}
+
+		.pop img {
+			width: 100%;
+    		height: 100%;
+		}
+
+		.pop p {
+    		float: left;
+    		font-weight: bold;
+    		color: black;
+    		font-size: 18px;
+    		margin-top: 15px;
+		}
+
+		.pop a {
+    		float: left;
+    		font-weight: bold;
+    		color: black;
+    		font-size: 18px;
+    		margin-top: 15px;
+    		margin-left: 140px;
+		}
 
 /************************************************************************/
 
