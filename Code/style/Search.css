@@ -18,7 +18,7 @@ body {
 
 /************************************************************************/
 
-/*** Navbar *************************************************************/
+/*** Navbar (header) ****************************************************/
 
 #navbar {
 	height:12em;
@@ -67,7 +67,7 @@ body {
 
 /************************************************************************/
 
-/*** Navigation bar in side bar *****************************************/
+/*** Navigation bar *****************************************************/
 
 #navigation {
 	float: left;
@@ -114,6 +114,57 @@ body {
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
+
+	#result1 {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		height: 250px;
+		background-color: white;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+		.results { 
+			float: left;
+			background-color: #FFEFD5;
+    		width: 30%;
+			height: 80%;
+			margin-right: 30px;
+		}
+
+		.results img {
+			width: 100%;
+    		height: 100%;
+		}
+
+		.results p {
+    		float: left;
+    		font-weight: bold;
+    		color: black;
+    		font-size: 18px;
+    		margin-top: 15px;
+		}
+
+		.results a {
+    		float: left;
+    		font-weight: bold;
+    		color: black;
+    		font-size: 18px;
+    		margin-top: 15px;
+    		margin-left: 140px;
+		}
+
+		#result2 {
+			margin-left: 5%;
+			margin-right: 5%;
+			width: 90%;
+			height: 250px;
+			background-color: white;
+			margin-bottom: 30px;
+			margin-top: 30px;
+		}
+
 
 /************************************************************************/
 
