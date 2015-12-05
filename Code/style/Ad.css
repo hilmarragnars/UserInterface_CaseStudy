@@ -92,6 +92,7 @@ body {
 	#navBar {
 		margin-left: 5%;
 	}
+
 /************************************************************************/
 
 /*** Main section with the content **************************************/
@@ -103,11 +104,21 @@ body {
 	background-color: green;
 }
 
+	.breadcrumb > li + li:before {
+   		color: #CCCCCC;
+   		content: "/ ";
+   		padding: 0 5px;
+	}
+
+	.breadcrumb {
+		margin-top: 20px;
+	}
+
 	#ad {
 		width: 90%;
 		margin-left: 5%;
 		margin-right: 5%;
-		margin-top: 10%;
+		margin-top: 5%;
 		height: 350px;
 		background-color: gray;
 	}
