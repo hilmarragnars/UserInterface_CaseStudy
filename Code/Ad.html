@@ -24,7 +24,7 @@
 <body>
 	<nav id="navbar" class="col-md-12">
 		<div id="logo" class="col-md-3">
-			<h1>Craiglist</h1>
+			<h1>Craigslist</h1>
 		</div>
 
 		<div class="col-md-6">
@@ -109,29 +109,48 @@
 	</div>
 
 	<div id="main">
-		<ol class = "breadcrumb">
-   			<li><a href = "#">Homepage</a></li>
-   			<li><a href = "#">Section</a></li>
-   			<li class = "active">Ad</li>
-		</ol>
+			<ol class = "breadcrumb">
+   					<li><a href = "#">Homepage</a></li>
+   					<li><a href = "#">Section</a></li>
+   					<li class = "active">Ad1</li>
+				</ol>
 
-		<div id="ad">
-			<h1>This is the ad tittle</h1>
-			<div id="description">
-				<p>This is the paragraph with the description.</p>
-			</div>
-			<div id="photo">
-				<img src="./images/logopeq.ico" alt="Image not available">
-			</div>
-			<button type="button" id="button1" class="btn btn-default">Share!</button><br>
-			<button type="button" id="button2" class="btn btn-default">Contact</button>
+			<div id="ad">		
+				<h1>This is the ad tittle</h1>
+				<div id="description">
+					<p>This is the paragraph with the description.</p>
+				</div>
+				<div id="photo">
+					<img src="./images/logopeq.ico" alt="Image not available">
+				</div>
+				<button type="button" id="button1" class="btn btn-default">Share!</button>
+				<button onclick="Contact()" id="button2" class="btn btn-default">Contact</button>
+				
+				<div id="info">
+				<p>Email: <input type="text" value="contact@craiglistmail.com" readonly></p><br>
+     			<p>Phone number: <input type="text" value="(+21) 858-3324-5676" readonly></p><br>
+     			
+      			<div id="networks">
+					<a href="https://twitter.com/?lang=es" target="_blank"></a>
+					<img src="./images/twitter.png" alt="not available">
+	
+					<a href="https://es-es.facebook.com/" target="_blank"></a>
+					<img src="./images/facebook.png" alt="not available">
+					
+					<a href="https://www.tumblr.com/" target="_blank"></a>
+					<img src="./images/tumblr.png" alt="not available">
+	
+					<a href="https://www.linkedin.com/uas/login" target="_blank"></a>
+					<img src="./images/in.png" alt="not available">
+					
+    			</div>
+    			</div>
 			</div>
 		</div>
-	</div>
 		
 	<div id="footer">
 		<!-- Policy text -->
-		<p>&#169;2015 Craiglist</p>
+		<p>&#169;2015 Craigslist</p>
 		<!-- Bar with privacy and policy options (links) -->
 		<ul>
 			<li><a href="http://madrid.craigslist.es/" target="_blank">Help</a></li>

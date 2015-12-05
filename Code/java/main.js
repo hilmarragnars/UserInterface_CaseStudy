@@ -7,3 +7,8 @@ $(document).ready(function() {
     );
 });
 });
+
+/* Contact info */
+function Contact(){
+    document.getElementById("info").style.visibility="visible";
+}
