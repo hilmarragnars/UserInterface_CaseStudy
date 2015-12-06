@@ -140,7 +140,7 @@ body {
 		margin-bottom: 30px;
 	}
 
-	/***Hilmar trying to make it as a list****************/
+	/*** Searched ads as a list ***********************/
 		#searchedList{
 			list-style: none;
 			height: 90%;
@@ -230,6 +230,56 @@ body {
 		margin-bottom: 30px;
 		margin-top: 30px;
 	}
+
+	/*** Popular ads as a list ***********************/
+
+		#popList{
+			list-style: none;
+			height: 90%;
+		}
+
+		#popList li{
+			display: inline;
+			float: left;
+			margin: 1em;
+			width: 30%;
+			height: 100%;
+		}
+
+		.popItem{
+			background-color: #FFEFD5;
+			border: 1px;
+			border-style: groove;
+    		width: 100%;
+			height: 100%;
+		}
+
+		.popItem img {
+			border: 1px;
+			border-style: solid;
+			margin-top: 2%;
+			margin-left: 5%;
+			margin-right: 5%;
+			width: 90%;
+    		height: 80%;
+		}
+
+		.popItem p{
+			font-size: 16px;
+			width: 97.5%;
+			margin-left: 2.5%;
+			margin-top: 5px;
+		}
+
+		.popItem p a{
+			font-size: 16px;
+			color: rgb(35,82,200);
+			text-decoration: underline;
+			width: 20%;
+			float: right;
+			display: inline;
+		}
+	/*************************************************/
 
 		.pop { 
 			float: left;
