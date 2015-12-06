@@ -105,13 +105,13 @@ body {
 
 /*** Main section with the content **************************************/
 
-#main {
-	float: left;
-	width: 81%;
-	height: 750px;
-	background-color: green;
-	border-style: solid none solid none;
-}
+	#main {
+		float: left;
+		width: 81%;
+		height: 750px;
+		background-color: green;
+		border-style: solid none solid none;
+	}
 
 	.breadcrumb > li + li:before {
 		color: #CCCCCC;
