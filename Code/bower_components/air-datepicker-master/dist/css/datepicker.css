@@ -85,17 +85,17 @@
   width: 14.28571%; }
 
 .datepicker--cells-months {
-  height: 130px; }
+  height: 170px; }
 
 .datepicker--cell-month {
   width: 33.33%;
   height: 25%; }
 
 .datepicker--years {
-  height: 130px; }
+  height: 170px; }
 
 .datepicker--cells-years {
-  height: 130px; }
+  height: 170px; }
 
 .datepicker--cell-year {
   width: 25%;
@@ -131,7 +131,7 @@
   font-family: Tahoma, sans-serif;
   font-size: 14px;
   color: #4a4a4a;
-  width: 190px;
+  width: 200px;
   position: absolute;
   left: -100000px;
   opacity: 0;
@@ -278,6 +278,7 @@
     stroke-width: 2px; }
 
 .datepicker--nav-title {
+  font-size: 12px;
   border-radius: 4px;
   padding: 0 8px; }
   .datepicker--nav-title i {
