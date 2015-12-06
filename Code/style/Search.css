@@ -2,14 +2,15 @@
 /*** Body ***************************************************************/
 
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 10px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 10px;
 }
 
 	* {
 		box-sizing: border-box;
+		padding: 0;
 	}
 
 	.zeroPadding {
@@ -22,7 +23,7 @@ body {
 
 #navbar {
 	height:12em;
-    background-color: rgb(238, 238, 238);
+	background-color: rgb(238, 238, 238);
 }
 
 	#logo {
@@ -75,28 +76,29 @@ body {
 
 /*** Navigation bar *****************************************************/
 
-#navigation {
-	float: left;
-	width: 204px;
-	height: 750px;
-	background-color: gray;
-}
+	#navigation {
+		border-style: solid solid solid none;
+		width: 19%;
+		height: 75em;
+		background-color: rgb(238, 238, 238);
+		padding: 0em;
+		float: left;
+	}
 	
 	/* This is the text above the calendar*/
-	#datetext{
-		margin-top: 1em;
+	#datetext {
+		font-size: 1.7em;
 		text-align: center;
+	}
+
+	.navCategory {
+		padding-left: 1.5em;
 	}
 
 	/* Calendar */
 	.datepicker-here {
-		margin-left: 7px;
-		margin-bottom: 2em;
-	}
-
-	/* Navigation bar */
-	#navBar {
-		margin-left: 5%;
+		padding: 0;
+		height: 24em;
 	}
 
 /************************************************************************/
@@ -105,15 +107,16 @@ body {
 
 #main {
 	float: left;
-	width: 820px;
+	width: 81%;
 	height: 750px;
 	background-color: green;
+	border-style: solid none solid none;
 }
 
 	.breadcrumb > li + li:before {
-   		color: #CCCCCC;
-   		content: "/ ";
-   		padding: 0 5px;
+		color: #CCCCCC;
+		content: "/ ";
+		padding: 0 5px;
 	}
 
 	.breadcrumb {
@@ -134,31 +137,31 @@ body {
 		.results { 
 			float: left;
 			background-color: #FFEFD5;
-    		width: 30%;
+			width: 30%;
 			height: 80%;
 			margin-right: 30px;
 		}
 
 		.results img {
 			width: 100%;
-    		height: 100%;
+			height: 100%;
 		}
 
 		.results p {
-    		float: left;
-    		font-weight: bold;
-    		color: black;
-    		font-size: 18px;
-    		margin-top: 15px;
+			float: left;
+			font-weight: bold;
+			color: black;
+			font-size: 18px;
+			margin-top: 15px;
 		}
 
 		.results a {
-    		float: left;
-    		font-weight: bold;
-    		color: black;
-    		font-size: 18px;
-    		margin-top: 15px;
-    		margin-left: 140px;
+			float: left;
+			font-weight: bold;
+			color: black;
+			font-size: 18px;
+			margin-top: 15px;
+			margin-left: 140px;
 		}
 
 		#result2 {
@@ -176,46 +179,57 @@ body {
 
 /*** Footer *************************************************************/
 
-#footer {
-	float: left;
-	width: 100%;
-	height: 65px;
-	background-color: yellow;
-}
+	#footer {
+		height: 6.5em;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		background-color: rgb(238, 238, 238);
+	}
+
+	#policy {
+		padding: 0;
+		height: 6.5em;
+	}
 	
 	/* Policy text */
-	#footer p {
+	#policy p {
 		float: left;
-		margin-left: 5%;
-		margin-right: 10%;
 		font-size: 20px;
 		font-weight: bold;
 		font-family: cursive;
-		margin-top: 20px;
 		color: black;
+		margin: 1em 0 0 0;
 	}
 	
 	/* Bar with privacy and policy options */
 	#footer ul {
 		list-style-type: none;
+		height: 6.5em;
 		margin: 0;
-		position: relative;
-		top: 22px;
+		padding: 2em 0 0 0;
 	}
-	
-	#footer li {
+
+	#footLinks {
+		padding: 0;
+		width: 83%;
+	}
+
+	#footLinks li {
 		float: left;
 		display: inline;
-		padding: 0;
-		margin-left: 25px;
-		margin-right: 25px;
-		text-align: center;
+		
+		width: 12%;
+		
+	}
+
+	#footLinks li {
+		width: 12%;
 	}
 	
 	/* Unvisited link */
 	a:link {
-    	color: black;
-    	font-size: 18px;
+		color: black;
+		font-size: 18px;
 		font-weight: bold;
 		text-decoration: none;
 		letter-spacing: 1px;
@@ -224,12 +238,12 @@ body {
 
 	/* Visited link */
 	a:visited {
-    	color: black;
+		color: black;
 	}
 
 	/* Mouse over link */
 	a:hover {
-    	color: rgb(35,82,124);
+		color: rgb(35,82,124);
 	}
 
 /************************************************************************/
