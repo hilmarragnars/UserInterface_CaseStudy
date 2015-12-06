@@ -78,9 +78,9 @@ body {
 /*** Navigation bar in side bar *****************************************/
 
 	#navigation {
-		border-style: solid solid solid none;
+		border-style: solid solid none none;
 		width: 19%;
-		height: 75em;
+		height: 80em;
 		background-color: rgb(238, 238, 238);
 		padding: 0em;
 		float: left;
@@ -109,9 +109,9 @@ body {
 #main {
 	float: left;
 	width: 81%;
-	height: 750px;
+	height: 80em;
 	background-color: white;
-	border-style: solid none solid none;
+	border-style: solid none none none;
 }
 
 	.breadcrumb {
@@ -264,6 +264,7 @@ body {
 		padding-left: 1.5em;
 		padding-right: 1.5em;
 		background-color: rgb(238, 238, 238);
+		border-style: solid none none none;
 	}
 
 	#policy {
