@@ -31,7 +31,7 @@
       <div id="location" class="row">
         <div class="col-md-6 zeroPadding">
           <span>Current location</span>
-          <strong for="currLocation">Madrid <i class="fa fa-location-arrow"></i></stong>
+          <strong for="currLocation">Madrid <i class="fa fa-location-arrow"></i></strong>
         </div>
         <div id="selectLocation" class="col-md-6">
           <select name="currLocation" class="selectpicker" data-style="btn-default">
@@ -88,26 +88,35 @@
     </div>
   </nav>
 
-  <div id="navigation"> 
-    <!-- Calendar-->
-  	<p id="datetext">Event calendar</p>
-    <div class="datepicker-here" data-language='ru'></div>
 
-    <!-- Sections -->
-    <nav class="col-2 col-m-12" id="navBar">
-      <ul class="nav nav-pills nav-stacked menuBar col-12 col-m-12">
-        <li class="vertical "><a class="col-12 col-m-3" href="#">Community</a></li>
-        <li class="vertical "><a class="col-12 col-m-3" href="#">Housing</a></li>
-        <li class="vertical "><a class="col-12 col-m-3" href="#">Jobs</a></li>
-        <li class="vertical "><a class="col-12 col-m-3" href="#">Personals</a></li>
-        <li class="vertical "><a class="col-12 col-m-3" href="#">For Sale</a></li>
-        <li class="vertical "><a class="col-12 col-m-3" href="#">Services</a></li>
-        <li class="vertical "><a class="col-12 col-m-3" href="#">Forums</a></li>
-        <li class="vertical "><a class="col-12 col-m-3" href="#">CVs</a></li>
-        <li class="vertical "><a class="col-12 col-m-3" href="#">Temporal Jobs</a></li>
-      </ul>
-    </nav>
-  </div>
+	<div id="navigation">
+		<!-- Calendar-->
+		<p id="datetext">Event calendar</p>
+		<table>
+			<tr>
+				<td style="width:40%">
+					</td><td>
+					<!-- Fix to keep it centered -->
+					<div class="datepicker-here" data-language='ru'></div>
+					</td><td style="width:40%">
+				</td>
+			</tr>
+		</table>
+		<!-- Sections -->
+		<div class="navCategory">
+			<ul class="nav nav-pills nav-stacked menuBar col-12 col-m-12">
+				<li class="vertical "><a class="col-12 col-m-3" href="#">Community</a></li>
+				<li class="vertical "><a class="col-12 col-m-3" href="#">Housing</a></li>
+				<li class="vertical "><a class="col-12 col-m-3" href="#">Jobs</a></li>
+				<li class="vertical "><a class="col-12 col-m-3" href="#">Personals</a></li>
+				<li class="vertical "><a class="col-12 col-m-3" href="#">For Sale</a></li>
+				<li class="vertical "><a class="col-12 col-m-3" href="#">Services</a></li>
+				<li class="vertical "><a class="col-12 col-m-3" href="#">Forums</a></li>
+				<li class="vertical "><a class="col-12 col-m-3" href="#">CVs</a></li>
+				<li class="vertical "><a class="col-12 col-m-3" href="#">Temporal Jobs</a></li>
+			</ul>
+		</div>
+	</div>
 
   <div id="main"> 
     <ol class = "breadcrumb">
