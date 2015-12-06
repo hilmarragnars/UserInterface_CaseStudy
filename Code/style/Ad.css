@@ -8,10 +8,6 @@ body {
 	font-size: 10px;
 }
 
-	* {
-		box-sizing: border-box;
-	}
-
 	.zeroPadding {
 		padding: 0em;
 	}
@@ -75,28 +71,29 @@ body {
 
 /*** Navigation bar in side bar *****************************************/
 
-#navigation {
-	float: left;
-	width: 204px;
-	height: 750px;
-	background-color: gray;
-}
+	#navigation {
+		border-style: solid solid solid none;
+		width: 19%;
+		height: 75em;
+		background-color: rgb(238, 238, 238);
+		padding: 0em;
+		float: left;
+	}
 	
 	/* This is the text above the calendar*/
-	#datetext{
-		margin-top: 1em;
+	#datetext {
+		font-size: 1.7em;
 		text-align: center;
+	}
+
+	.navCategory {
+		padding-left: 1.5em;
 	}
 
 	/* Calendar */
 	.datepicker-here {
-		margin-left: 7px;
-		margin-bottom: 2em;
-	}
-
-	/* Navigation bar */
-	#navBar {
-		margin-left: 5%;
+		padding: 0;
+		height: 24em;
 	}
 
 /************************************************************************/
@@ -105,9 +102,10 @@ body {
 
 #main {
 	float: left;
-	width: 820px;
+	width: 81%;
 	height: 750px;
 	background-color: green;
+	border-style: solid none solid none;
 }
 
 	.breadcrumb > li + li:before {
