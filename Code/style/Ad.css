@@ -235,16 +235,24 @@ body {
 		list-style-type: none;
 		height: 6.5em;
 		margin: 0;
-		padding-left: 2.6em;
-		padding-top: 2em;
+		padding: 2em 0 0 0;
 	}
-	
-	#footer li {
+
+	#footLinks {
+		padding: 0;
+		width: 83%;
+	}
+
+	#footLinks li {
 		float: left;
 		display: inline;
-		padding: 0;
-		margin-left: 3.1em;
-		text-align: center;
+		
+		width: 12%;
+		
+	}
+
+	#footLinks li {
+		width: 12%;
 	}
 	
 	/* Unvisited link */
