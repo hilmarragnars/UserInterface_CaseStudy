@@ -19,6 +19,7 @@
 - Make functional links.
 - Center the footer with respect the main section.
 - Choose the same font.
+- Redesign buttons.
 
 /** AD ****/
 - Center Craiglist logo.
