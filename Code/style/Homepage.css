@@ -69,22 +69,23 @@ body {
 /************************************************************************/
 
 /***Wrapper around the side bar and the main content*********************/
+
 	#wrapper{
 		width: 1024px;
 	}
-/************************************************************************/
 
+/************************************************************************/
 
 /*** Navigation bar in side bar *****************************************/
 
-	#navigation {
-		border-style: solid solid none none;
-		width: 19%;
-		height: 80em;
-		background-color: rgb(238, 238, 238);
-		padding: 0em;
-		float: left;
-	}
+#navigation {
+	border-style: solid solid none none;
+	width: 19%;
+	height: 80em;
+	background-color: rgb(238, 238, 238);
+	padding: 0em;
+	float: left;
+}
 	
 	/* This is the text above the calendar*/
 	#datetext {
@@ -143,6 +144,7 @@ body {
 	}
 
 	/*** Searched ads as a list ***********************/
+
 		#searchedList{
 			list-style: none;
 			height: 90%;
@@ -157,7 +159,7 @@ body {
 		}
 
 		.searchedItem{
-			background-color: #FFEFD5;
+			background-color: rgb(238, 238, 238);
 			border: 1px;
 			border-style: groove;
 			width: 100%;
@@ -190,8 +192,7 @@ body {
 			display: inline;
 		}
 
-
-	/******************************************************/
+	/**************************************************/
 
 	#popular {
 		margin-left: 5%;
@@ -219,7 +220,7 @@ body {
 		}
 
 		.popItem{
-			background-color: #FFEFD5;
+			background-color: rgb(238, 238, 238);
 			border: 1px;
 			border-style: groove;
     		width: 100%;
@@ -250,22 +251,21 @@ body {
 			width: 20%;
 			float: right;
 			display: inline;
-
 		}
-	/*************************************************/
 
+	/*************************************************/
 
 /************************************************************************/
 
 /*** Footer *************************************************************/
 
-	#footer {
-		height: 6.5em;
-		padding-left: 1.5em;
-		padding-right: 1.5em;
-		background-color: rgb(238, 238, 238);
-		border-style: solid none none none;
-	}
+#footer {
+	height: 6.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	background-color: rgb(238, 238, 238);
+	border-style: solid none none none;
+}
 
 	#policy {
 		padding: 0;
@@ -299,7 +299,6 @@ body {
 		float: left;
 		display: inline;
 		width: 12%;
-		
 	}
 
 	#footLinks li {
@@ -324,5 +323,6 @@ body {
 	/* Mouse over link */
 	a:hover {
 		color: rgb(35,82,124);
-	}	
+	}
+
 /************************************************************************/

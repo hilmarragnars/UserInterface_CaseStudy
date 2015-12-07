@@ -1,0 +1,33 @@
+
+/** HOMEPAGE ****/
+- Center Craiglist logo.
+- Move change location button left and right.
+- Event calendar tittle starting at same heigth as breadcrumbs.
+- Add space between the list and calendar.
+- Add hover to the previous list.
+- Make functional links.
+- Choose background color for targets with items.
+- Center the footer with respect the main section.
+- Choose the same font.
+
+/** SEARCH ****/
+- Center Craiglist logo.
+- Move change location button left and right.
+- Event calendar tittle starting at same heigth as breadcrumbs.
+- Add space between the list and calendar.
+- Add hover to the previous list.
+- Make functional links.
+- Center the footer with respect the main section.
+- Choose the same font.
+
+/** AD ****/
+- Center Craiglist logo.
+- Move change location button left and right.
+- Event calendar tittle starting at same heigth as breadcrumbs.
+- Add space between the list and calendar.
+- Add hover to the previous list.
+- Make functional links.
+- Center the footer with respect the main section.
+- Choose the same font.
+- Fix social networks.
+

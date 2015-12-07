@@ -21,10 +21,10 @@
 
 /*** Navbar *************************************************************/
 
-	#navbar {
-		height:12em;
-		background-color: rgb(238, 238, 238);
-	}
+#navbar {
+	height:12em;
+	background-color: rgb(238, 238, 238);
+}
 
 	#logo {
 		padding: 2.2em 0;
@@ -72,14 +72,14 @@
 
 /*** Navigation bar in side bar *****************************************/
 
-	#navigation {
-		border-style: solid solid solid none;
-		width: 19%;
-		height: 75em;
-		background-color: rgb(238, 238, 238);
-		padding: 0em;
-		float: left;
-	}
+#navigation {
+	border-style: solid solid solid none;
+	width: 19%;
+	height: 75em;
+	background-color: rgb(238, 238, 238);
+	padding: 0em;
+	float: left;
+}
 	
 	/* This is the text above the calendar*/
 	#datetext {
@@ -101,13 +101,13 @@
 
 /*** Main section with the content **************************************/
 
-	#main {
-		float: left;
-		width: 81%;
-		height: 750px;
-		background-color: white;
-		border-style: solid none solid none;
-	}
+#main {
+	float: left;
+	width: 81%;
+	height: 750px;
+	background-color: white;
+	border-style: solid none solid none;
+}
 
 	.breadcrumb > li + li:before {
 		color: #CCCCCC;
@@ -212,12 +212,12 @@
 
 /*** Footer *************************************************************/
 
-	#footer {
-		height: 6.5em;
-		padding-left: 1.5em;
-		padding-right: 1.5em;
-		background-color: rgb(238, 238, 238);
-	}
+#footer {
+	height: 6.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	background-color: rgb(238, 238, 238);
+}
 
 	#policy {
 		padding: 0;
