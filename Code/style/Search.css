@@ -44,7 +44,7 @@ body {
 		height: 6em;
 		font-size: 3.5em;
 	}
-	
+
 	#locationButton {
 		padding-top: 1em;
 		float: right;
@@ -95,6 +95,7 @@ body {
 	}
 
 	.navCategory {
+		margin-top: 2em;
 		padding-left: 1.5em;
 	}
 

@@ -2,35 +2,59 @@
 /** HOMEPAGE ****/
 - Center Craiglist logo and make it a link. (X)
 
-- Move change location button to the right and a little down.
+- Move change location button to the right and a little down.(X)
 
-- Event calendar tittle starting at same heigth as breadcrumbs.
-- Add space between the list and calendar.
+- Event calendar tittle starting at same heigth as breadcrumbs.(NO)
+
+- Add space between the list and calendar.(X)
+
+
 - Add hover (the shadow before clicking) to the previous list, as it was before. (X)
+
 - Make functional links.
+
 - Choose background color for targets with items.
-- Center the footer with respect the main section.
-- Choose the same font.
+
+- Center the footer with respect the main section.(Looks very bad, still do it?)
+
+- Choose the same font.(What needs same fonts)
 
 /** SEARCH ****/
-- Center Craiglist logo and make it a link.
-- Move change location button to the right and a little down.
-- Event calendar tittle starting at same heigth as breadcrumbs.
-- Add space between the list and calendar.
+
+- Center Craiglist logo and make it a link.(X)
+
+- Move change location button to the right and a little down. (X)
+
+- Event calendar tittle starting at same heigth as breadcrumbs. (NO)
+
+- Add space between the list and calendar. (X)
+
 - Add hover (the shadow before clicking) to the previous list, as it was before.
-- Make functional links.
-- Center the footer with respect the main section.
-- Choose the same font.
-- Redesign buttons.
+
+- Make functional links. 
+
+- Center the footer with respect the main section. (?)
+
+- Choose the same font.(?)
+
+- Redesign buttons. (due? why? what do you want)
 
 /** AD ****/
-- Center Craiglist logo and make it a link.
-- Move change location button to the right and a little down.
-- Event calendar tittle starting at same heigth as breadcrumbs.
-- Add space between the list and calendar.
+- Center Craiglist logo and make it a link.(X)
+
+- Move change location button to the right and a little down. (X)
+
+- Event calendar tittle starting at same heigth as breadcrumbs.(X)
+
+- Add space between the list and calendar.(X)
+
 - Add hover (the shadow before clicking) to the previous list, as it was before.
+
 - Make functional links.
-- Center the footer with respect the main section.
-- Choose the same font.
-- Fix social networks.
+
+- Center the footer with respect the main section. (nope)
+
+- Choose the same font. (again what ?)
+
+- Fix social networks. (again the specifications in this text are not detailed)
 
