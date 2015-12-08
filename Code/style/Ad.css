@@ -182,6 +182,7 @@
 	}
 
 	#info {
+		visibility: hidden;
 		padding-top: 3em;
 		float: left;
 		height: auto;
