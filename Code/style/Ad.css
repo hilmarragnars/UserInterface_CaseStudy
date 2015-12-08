@@ -135,10 +135,6 @@
 		/*background-color: white;*/
 	}
 
-	#adHead {
-		background-color: rgb(40, 186, 227);
-	}
-
 	#adHead h1 {
 		text-align: center;
 	}
@@ -169,24 +165,29 @@
 		height: 100%;
 	}
 
+	#infoButtons {
+		float: left;
+		width: 40%;
+	}
+
 	#button1 {
-		width: 37%;
+		width: 100%;
 		float: right;
 		margin-bottom: 2em;
 	}
 
 	#button2 {
-		width: 37%;
+		width: 100%;
 		float: right;
 	}
 
 	#info {
-		visibility: hidden;
+		/*visibility: hidden;*/
+		padding-top: 3em;
 		float: left;
 		height: auto;
-		width: 37%;
-		/*background-color: pink;*/
-		margin-left: 3%;
+		width: 60%;
+		background-color: pink;
 	}
 
 	#info p {

@@ -13,9 +13,7 @@ $(document).ready(function() {
 	});
 });
 
-
-
 /* Contact info */
-function Contact(){
+function Contact() {
 	document.getElementById("info").style.visibility="visible";
 }
