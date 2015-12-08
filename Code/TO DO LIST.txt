@@ -8,7 +8,8 @@
 
 - Add space between the list and calendar.(X)
 
-- Add hover (the shadow before clicking) to the previous list, as it was before.
+
+- Add hover (the shadow before clicking) to the previous list, as it was before. (X)
 
 - Make functional links.
 
