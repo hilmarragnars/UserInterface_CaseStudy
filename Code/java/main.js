@@ -6,7 +6,12 @@ $(document).ready(function() {
 			$('#datepicker').datepicker('getFormattedDate')
 		);
 	});
+	$("#searchBotton").click(function() {
+		location.href = "./Search.html";
+	});
 });
+
+
 
 /* Contact info */
 function Contact(){
