@@ -44,9 +44,10 @@ body {
 		height: 6em;
 		font-size: 3.5em;
 	}
-
-	#selectLocation {
-		padding-left: 2.6em; 
+	
+	#locationButton {
+		padding-top: 1em;
+		float: right;
 	}
 
 	/* Header's tittle */
