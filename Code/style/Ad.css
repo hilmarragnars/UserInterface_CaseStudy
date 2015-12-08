@@ -182,12 +182,10 @@
 	}
 
 	#info {
-		/*visibility: hidden;*/
 		padding-top: 3em;
 		float: left;
 		height: auto;
 		width: 60%;
-		background-color: pink;
 	}
 
 	#info p {
@@ -203,7 +201,6 @@
 	#networks {
 		float: left;
 		margin-right: 10%;
-		/*background-color: pink;*/
 	}
 
 	/* Social networks images */
