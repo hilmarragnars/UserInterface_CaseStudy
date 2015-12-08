@@ -1,7 +1,9 @@
 
 /** HOMEPAGE ****/
-- Center Craiglist logo and make it a link.
+- Center Craiglist logo and make it a link. (X)
+
 - Move change location button to the right and a little down.
+
 - Event calendar tittle starting at same heigth as breadcrumbs.
 - Add space between the list and calendar.
 - Add hover (the shadow before clicking) to the previous list, as it was before.
