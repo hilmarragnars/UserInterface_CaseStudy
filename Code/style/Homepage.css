@@ -98,7 +98,8 @@ body {
 	}
 
 	.navCategory {
-		margin-top: 2em;
+		margin-top: 5em;
+		line-height: 30px;
 		padding-left: 1.5em;
 	}
 
@@ -264,6 +265,7 @@ body {
 			font-size: 16px;
 			font-family: arial;
 			font-weight: bold;
+			color: black;
 		}
 
 		/* Link next to the text */
