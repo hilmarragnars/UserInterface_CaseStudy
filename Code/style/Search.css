@@ -32,6 +32,7 @@ body {
 		height: 12em;
 	}
 
+	/* The logo is a link itself */
 	#logo a {
 		margin: 0;
 		font-size: 4.5em;
@@ -132,7 +133,7 @@ body {
 		margin-left: 2%;
 	}
 
-
+	/* First set of results */
 	#result1 {
 		margin-left: 5%;
 		margin-right: 5%;
@@ -177,6 +178,7 @@ body {
 			height: 80%;
 		}
 
+		/* text under the photo */
 		.result1Item p {
 			font-size: 16px;
 			width: 97.5%;
@@ -187,6 +189,7 @@ body {
 			font-weight: bold;
 		}
 
+		/* Link next to the text */
 		.result1Item p a {
 			font-size: 16px;
 			color: rgb(35,82,200);
@@ -198,6 +201,7 @@ body {
 
 	/*************************************************/
 
+	/* Second set of results */
 	#result2 {
 		margin-left: 5%;
 		margin-right: 5%;
@@ -242,6 +246,7 @@ body {
 			height: 80%;
 		}
 
+		/* Text under photo */
 		.result2Item p {
 			font-size: 16px;
 			width: 97.5%;
@@ -252,6 +257,7 @@ body {
 			font-weight: bold;
 		}
 
+		/* Link next to the text */
 		.result2Item p a {
 			font-size: 16px;
 			color: rgb(35,82,200);

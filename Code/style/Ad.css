@@ -32,6 +32,7 @@ body {
 		height: 12em;
 	}
 
+	/* The logo is a link itself */
 	#logo a {
 		margin: 0;
 		font-size: 4.5em;
@@ -90,6 +91,7 @@ body {
 		font-family: arial;
 	}
 
+	/* Sections */
 	.navCategory {
 		margin-top: 2em;
 		padding-left: 1.5em;
@@ -126,6 +128,7 @@ body {
 		margin-left: 2%;
 	}
 
+	/* This is the ad itself, containing tittle, description, image and information */
 	#ad {
 		border-style: dotted;
 		width: 90%;
