@@ -84,7 +84,7 @@ body {
 #navigation {
 	border-style: solid solid none none;
 	width: 19%;
-	height: 80em;
+	height: 85em;
 	background-color: rgb(238, 238, 238);
 	padding: 0em;
 	float: left;
@@ -114,14 +114,16 @@ body {
 #main {
 	float: left;
 	width: 81%;
-	height: 80em;
-	background-color: white;
+	height: 85em;
+	background-color: rgb(200,200,200);
 	border-style: solid none none none;
 }
 
 	.breadcrumb {
 		margin-top: 30px;
 		margin-bottom: 50px;
+		width: 965px;
+		margin-left: 2%;
 	}
 
 	.breadcrumb > li + li:before {
@@ -142,8 +144,8 @@ body {
 		margin-left: 5%;
 		margin-right: 5%;
 		width: 90%;
-		height: 31.25%;
-		background-color: white;
+		height: 32%;
+		background-color: rgb(200,200,200);
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
@@ -174,7 +176,7 @@ body {
 		.searchedItem img {
 			border: 1px;
 			border-style: solid;
-			margin-top: 2%;
+			margin-top: 5%;
 			margin-left: 5%;
 			margin-right: 5%;
 			width: 90%;
@@ -206,8 +208,8 @@ body {
 		margin-left: 5%;
 		margin-right: 5%;
 		width: 90%;
-		height: 31.25%;
-		background-color: white;
+		height: 32%;
+		background-color: rgb(200,200,200);
 		margin-bottom: 30px;
 		margin-top: 30px;
 	}
@@ -238,7 +240,7 @@ body {
 		.popItem img {
 			border: 1px;
 			border-style: solid;
-			margin-top: 2%;
+			margin-top: 5%;
 			margin-left: 5%;
 			margin-right: 5%;
 			width: 90%;
