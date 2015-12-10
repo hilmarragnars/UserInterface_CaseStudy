@@ -292,7 +292,7 @@ body {
 		float: left;
 		font-size: 20px;
 		font-weight: bold;
-		font-family: cursive;
+		font-family: arial;
 		color: black;
 		margin: 1em 0 0 0;
 	}
@@ -302,22 +302,15 @@ body {
 		list-style-type: none;
 		height: 6.5em;
 		margin: 0;
+		margin-left: 12px;
 		padding: 2em 0 0 0;
-	}
-
-	#footLinks {
-		padding: 0;
-		width: 83%;
 	}
 
 	#footLinks li {
 		float: left;
 		display: inline;
-		width: 12%;
-	}
-
-	#footLinks li {
-		width: 12%;
+		margin-left: 50px;
+		margin-right: 10px;
 	}
 	
 	/* Unvisited link */
@@ -339,5 +332,4 @@ body {
 	a:hover {
 		color: rgb(35,82,124);
 	}
-
 /************************************************************************/
