@@ -122,7 +122,7 @@ body {
 	.breadcrumb {
 		margin-top: 30px;
 		margin-bottom: 50px;
-		width: 965px;
+		width: 660px;
 		margin-left: 2%;
 	}
 
@@ -135,7 +135,7 @@ body {
 	#main h1 {
 		color: black;
 		font-weight: bold;
-		font-size: 30px;
+		font-size: 28px;
 		margin-left: 5%;
 		font-family: arial;
 	}
@@ -163,6 +163,7 @@ body {
 			margin: 1em;
 			width: 30%;
 			height: 100%;
+			margin-right: 22px;
 		}
 
 		.searchedItem{
@@ -227,6 +228,7 @@ body {
 			margin: 1em;
 			width: 30%;
 			height: 100%;
+			margin-right: 22px;
 		}
 
 		.popItem{
