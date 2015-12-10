@@ -109,7 +109,7 @@ body {
 	float: left;
 	width: 81%;
 	height: 750px;
-	background-color: white;
+	background-color: rgb(200,200,200);
 	border-style: solid none solid none;
 }
 
@@ -122,6 +122,8 @@ body {
 	.breadcrumb {
 		margin-top: 30px;
 		margin-bottom: 30px;
+		width: 660px;
+		margin-left: 2%;
 	}
 
 	#ad {
@@ -130,7 +132,7 @@ body {
 		margin-left: 5%;
 		margin-right: 5%;
 		height: 600px;
-		/*background-color: white;*/
+		background-color: rgb(238, 238, 238);
 	}
 
 	#adHead h1 {
@@ -142,7 +144,7 @@ body {
 		float: left;
 		width: 60%;
 		height: 350px;
-		/*background-color: white;*/
+		background-color: rgb(238, 238, 238);
 		margin-top: 20px;
 	}
 
@@ -248,21 +250,14 @@ body {
 		height: 6.5em;
 		margin: 0;
 		padding: 2em 0 0 0;
-	}
-
-	#footLinks {
-		padding: 0;
-		width: 83%;
+		margin-left: 12px;
 	}
 
 	#footLinks li {
 		float: left;
 		display: inline;
-		width: 12%;
-	}
-
-	#footLinks li {
-		width: 12%;
+		margin-left: 50px;
+		margin-right: 10px;
 	}
 	
 	/* Unvisited link */

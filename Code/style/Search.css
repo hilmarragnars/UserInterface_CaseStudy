@@ -115,7 +115,7 @@ body {
 	float: left;
 	width: 81%;
 	height: 750px;
-	background-color: white;
+	background-color: rgb(200,200,200);
 	border-style: solid none solid none;
 }
 
@@ -128,6 +128,8 @@ body {
 	.breadcrumb {
 		margin-top: 30px;
 		margin-bottom: 30px;
+		width: 660px;
+		margin-left: 2%;
 	}
 
 
@@ -135,25 +137,26 @@ body {
 		margin-left: 5%;
 		margin-right: 5%;
 		width: 90%;
-		height: 31.25%;
-		background-color: white;
+		height: 34%;
+		background-color: rgb(200,200,200);
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
 
 	/*** Results as a list ***************************/
 
-		#result1List{
+		#result1List {
 			list-style: none;
 			height: 90%;
 		}
 
-		#result1List li{
+		#result1List li {
 			display: inline;
 			float: left;
 			margin: 1em;
 			width: 30%;
 			height: 100%;
+			margin-right: 22px;
 		}
 
 		.result1Item {
@@ -167,7 +170,7 @@ body {
 		.result1Item img {
 			border: 1px;
 			border-style: solid;
-			margin-top: 2%;
+			margin-top: 5%;
 			margin-left: 5%;
 			margin-right: 5%;
 			width: 90%;
@@ -199,8 +202,8 @@ body {
 		margin-left: 5%;
 		margin-right: 5%;
 		width: 90%;
-		height: 31.25%;
-		background-color: white;
+		height: 34%;
+		background-color: rgb(200,200,200);
 		margin-bottom: 30px;
 		margin-top: 30px;
 	}
@@ -218,6 +221,7 @@ body {
 			margin: 1em;
 			width: 30%;
 			height: 100%;
+			margin-right: 22px;
 		}
 
 		.result2Item {
@@ -231,7 +235,7 @@ body {
 		.result2Item img {
 			border: 1px;
 			border-style: solid;
-			margin-top: 2%;
+			margin-top: 5%;
 			margin-left: 5%;
 			margin-right: 5%;
 			width: 90%;
@@ -291,21 +295,14 @@ body {
 		height: 6.5em;
 		margin: 0;
 		padding: 2em 0 0 0;
-	}
-
-	#footLinks {
-		padding: 0;
-		width: 83%;
+		margin-left: 12px;
 	}
 
 	#footLinks li {
 		float: left;
 		display: inline;
-		width: 12%;
-	}
-
-	#footLinks li {
-		width: 12%;
+		margin-left: 50px;
+		margin-right: 10px;
 	}
 	
 	/* Unvisited link */
