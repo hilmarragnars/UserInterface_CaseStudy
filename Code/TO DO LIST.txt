@@ -1,9 +1,0 @@
-
-/** HOMEPAGE ****/
-- Center the footer with respect the main section.
-
-/** SEARCH ****/
-- Center the footer with respect the main section.
-
-/** AD ****/
-- Center the footer with respect the main section.
